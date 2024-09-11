@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://l5eckwb8fmtl"]
+
+[ext_resource type="PackedScene" uid="uid://534dwjkyp1wj" path="res://Scenes/jogador/jogador.tscn" id="1_2hy41"]
+[ext_resource type="Texture2D" uid="uid://c2e2gea1uxg66" path="res://assets/piso.png" id="2_wt1cw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lktmf"]
+size = Vector2(22, 737)
+
+[node name="Jogo" type="Node2D"]
+
+[node name="Jogador" parent="." instance=ExtResource("1_2hy41")]
+position = Vector2(541, 294)
+
+[node name="Piso" type="Sprite2D" parent="."]
+position = Vector2(640, 360)
+texture = ExtResource("2_wt1cw")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1, 358.5)
+shape = SubResource("RectangleShape2D_lktmf")

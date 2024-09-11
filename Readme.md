@@ -13,9 +13,9 @@ O objetivo deste projeto é adquirir uma base sólida no Godot, explorando desde
 ## **Plano de Estudos**
 
 ### **Semana 1: Fundamentos do Godot**
-- [ ] **Dia 1-2**: Instalação, configuração e familiarização com a interface.
-- [ ] **Dia 3-4**: Conceitos básicos de cenas e nós.
-- [ ] **Dia 5-7**: Introdução ao GDScript e criação de um projeto simples.
+- [ x ] **Dia 1-2**: Instalação, configuração e familiarização com a interface.
+- [ x ] **Dia 3-4**: Conceitos básicos de cenas e nós.
+- [ x ] **Dia 5-7**: Introdução ao GDScript e criação de um projeto simples.
 
 ### **Semana 2: Desenvolvimento 2D**
 - [ ] **Dia 8-10**: Física 2D e animação.
@@ -36,6 +36,13 @@ O objetivo deste projeto é adquirir uma base sólida no Godot, explorando desde
 
 ---
 ## **Primeiros Passos** 
+#### Semana 1 - Fundamentos do Godot
+
+***dia 01 _***
+
+Hoje relembrei conceitos e tive uma familiarização com a interface, aprendi sobre a movimentação dos personagens, nós.
+Com ajuda de um tutorial, aprendi novos conceitos e fiz o jogo breakout. 
+
 ---
 ## **Recursos**
 
