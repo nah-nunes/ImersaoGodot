@@ -42,6 +42,9 @@ O objetivo deste projeto é adquirir uma base sólida no Godot, explorando desde
 
 Hoje relembrei conceitos e tive uma familiarização com a interface, aprendi sobre a movimentação dos personagens, nós.
 Com ajuda de um tutorial, aprendi novos conceitos e fiz o jogo breakout. 
+***dia 02 _***
+
+Avançando um pouco mais nos conceitos e no jogo breakout
 
 ---
 ## **Recursos**
