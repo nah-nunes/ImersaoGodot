@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bs54m7g8tlqx2"]
+
+[ext_resource type="Script" path="res://scenes/bloco/bloco.gd" id="1_w6634"]
+[ext_resource type="Texture2D" uid="uid://uxesr7oaqiv1" path="res://assets/sprites/bloco.png" id="1_ys0al"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ya7hy"]
+size = Vector2(70, 20)
+
+[node name="Bloco" type="StaticBody2D" groups=["blocos"]]
+script = ExtResource("1_w6634")
+vida_do_bloco = 2
+vermelho = Color(0.784314, 0, 0, 1)
+verde = Color(0, 0.784314, 0, 1)
+azul = Color(0, 0, 0.784314, 1)
+
+[node name="SpriteDoBloco" type="Sprite2D" parent="."]
+texture = ExtResource("1_ys0al")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = -1
+shape = SubResource("RectangleShape2D_ya7hy")
