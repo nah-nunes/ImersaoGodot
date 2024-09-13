@@ -1,8 +1,11 @@
 extends StaticBody2D
+
+@export var game_manager : Node2D
 @export var vida_do_bloco : int 
 @export var vermelho : Color 
 @export var verde : Color
 @export var azul : Color
+
 
 
 func _ready():
@@ -26,4 +29,5 @@ func receber_dano() -> void:
 	if vida_do_bloco >= 1:
 		atualizar_cor()
 	else:
+		game_manager.atualizar_contagem_dos_blocos()
 		queue_free()

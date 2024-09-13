@@ -1,15 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://cbvay8gnvwajg"]
+[gd_scene load_steps=6 format=3 uid="uid://cbvay8gnvwajg"]
 
 [ext_resource type="Texture2D" uid="uid://dhthaddn6apxb" path="res://assets/sprites/campo-branco.png" id="1_2mf5q"]
 [ext_resource type="PackedScene" uid="uid://b8yxy0bi6ia3p" path="res://scenes/paddle/paddle.tscn" id="2_4c4oo"]
 [ext_resource type="PackedScene" uid="uid://chege7mda3e3i" path="res://scenes/bola/bola.tscn" id="3_nx0ko"]
 [ext_resource type="PackedScene" uid="uid://bs54m7g8tlqx2" path="res://scenes/bloco/bloco.tscn" id="4_dkfjk"]
+[ext_resource type="PackedScene" uid="uid://d1145btc4frp5" path="res://scenes/game_manager/game_manager.tscn" id="5_vck43"]
 
 [node name="Fase01" type="Node2D"]
 
 [node name="fundo" type="Sprite2D" parent="."]
 modulate = Color(0.630062, 0.606744, 0.889513, 1)
-position = Vector2(400, 300)
+position = Vector2(403, 299)
 texture = ExtResource("1_2mf5q")
 
 [node name="Paddle" parent="." instance=ExtResource("2_4c4oo")]
@@ -18,29 +19,11 @@ position = Vector2(400, 550)
 [node name="bola" parent="." instance=ExtResource("3_nx0ko")]
 position = Vector2(400, 515)
 
-[node name="Bloco" parent="." instance=ExtResource("4_dkfjk")]
-position = Vector2(554, 94)
+[node name="Blocos" type="Node2D" parent="."]
 
-[node name="Bloco2" parent="." instance=ExtResource("4_dkfjk")]
-position = Vector2(738, 93)
+[node name="Bloco" parent="Blocos" node_paths=PackedStringArray("game_manager") instance=ExtResource("4_dkfjk")]
+position = Vector2(600, 79)
+game_manager = NodePath("../../GameManager")
 
-[node name="Bloco3" parent="." instance=ExtResource("4_dkfjk")]
-position = Vector2(649, 94)
-
-[node name="Bloco4" parent="." instance=ExtResource("4_dkfjk")]
-position = Vector2(267, 94)
-vermelho = Color(0.784314, 0, 0, 1)
-verde = Color(0, 0.784314, 0, 1)
-azul = Color(0, 0, 0.784314, 1)
-
-[node name="Bloco5" parent="." instance=ExtResource("4_dkfjk")]
-position = Vector2(360, 94)
-vermelho = Color(0.784314, 0, 0, 1)
-verde = Color(0, 0.784314, 0, 1)
-azul = Color(0, 0, 0.784314, 1)
-
-[node name="Bloco6" parent="." instance=ExtResource("4_dkfjk")]
-position = Vector2(456, 94)
-vermelho = Color(0.784314, 0, 0, 1)
-verde = Color(0, 0.784314, 0, 1)
-azul = Color(0, 0, 0.784314, 1)
+[node name="GameManager" parent="." node_paths=PackedStringArray("blocos") instance=ExtResource("5_vck43")]
+blocos = NodePath("../Blocos")

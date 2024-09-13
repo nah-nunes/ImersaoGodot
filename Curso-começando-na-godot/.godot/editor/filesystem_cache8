@@ -1,6 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726061651
+::res://::1726248042
 icon.svg::CompressedTexture2D::1367841637675398739::1726058530::1726058539::1::::<><>::
-::res://assets/::1698410404
+::res://assets/::1726061654
 mago.png::CompressedTexture2D::2099599363985450142::1698410404::1726061654::1::::<><>::
 piso.png::CompressedTexture2D::6677847941499799821::1698410404::1726061654::1::::<><>::
+::res://Scenes/::1726063028
+::res://Scenes/jogador/::1726077719
+jogador.gd::GDScript::-1::1726077717::0::1::::<>CharacterBody2D<>::
+jogador.tscn::PackedScene::2165235206330576981::1726077719::0::1::::<><>::uid://46cdhs26787k::::res://assets/mago.png<>res://Scenes/jogador/jogador.gd
+::res://Scenes/jogo/::1726077720
+jogo.tscn::PackedScene::834255611507969305::1726077719::0::1::::<><>::uid://534dwjkyp1wj::::res://Scenes/jogador/jogador.tscn<>uid://c2e2gea1uxg66::::res://assets/piso.png

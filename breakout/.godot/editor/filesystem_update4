@@ -1,7 +1,8 @@
 res://scenes/fase_01.tscn
 res://scenes/paddle/paddle.tscn
 res://scenes/bola/bola.tscn
-res://scenes/bola/bola.gd
-res://scenes/paddle/paddle.gd
 res://scenes/bloco/bloco.tscn
+res://scenes/game_manager/game_manager.tscn
+res://scenes/game_manager/game_manager.gd
+res://scenes/fase_02.tscn
 res://scenes/bloco/bloco.gd
