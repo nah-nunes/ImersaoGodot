@@ -2,6 +2,9 @@ extends Area2D
 
 # referencias gerais
 @onready var timer_da_bola : Timer = $Timer
+@onready var som_impacto_bola : AudioStreamPlayer = $SomImpactoBloco
+@onready var som_impacto_paddle: AudioStreamPlayer =$SomImpactoPaddle
+@onready var som_impacto_tela : AudioStreamPlayer = $SomImpactoTela
 
 
 
@@ -66,10 +69,15 @@ func movimentar_bola(delta : float) -> void:
 func verificar_posicao_da_bola() -> void:
 	# se a bola estiver dentro da tela
 	if position.y <= y_maximo:
+	
 	# rebate a bola se colidir com as bordas da tela
 		if position.y <= y_minimo:
+			som_impacto_tela.play()
+
+			
 			nova_direcao.y *= -1
 		if position.x <= x_minimo or position.x >= x_maximo:
+			som_impacto_tela.play()
 			nova_direcao.x *= -1
 	# se a bola cair da tela
 	if position.y > y_maximo and not caiu_da_tela:
@@ -93,11 +101,13 @@ func sair_da_tela() -> void:
 func _on_body_entered(body):
 	# se colidir com o paddle rebate
 	if body.is_in_group("paddle"):
+		som_impacto_paddle.play()
 		nova_direcao.y *= -1
 		
 	# se colidir com o bloco tbm rebate
 	
 	elif body.is_in_group("blocos"):
+		som_impacto_bola.play()
 		body.receber_dano()
 		nova_direcao.y *= -1
 		
