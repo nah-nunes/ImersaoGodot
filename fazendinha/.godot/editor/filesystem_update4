@@ -1,0 +1,8 @@
+res://scenes/cenário.tscn
+res://scenes/principal.tscn
+res://scenes/fazendeira.tscn
+res://scripts/fazendeira.gd
+res://scripts/tomate.gd
+res://scenes/efeito_agua.tscn
+res://scenes/tomate.tscn
+res://scenes/semente_tomate.tscn

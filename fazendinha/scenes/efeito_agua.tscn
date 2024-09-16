@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://jnwc47kiwmr4"]
+
+[ext_resource type="Texture2D" uid="uid://b5g7jh8801ylg" path="res://Assets/tilemaps/summer tilemap.png" id="1_1owj5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rnghd"]
+atlas = ExtResource("1_1owj5")
+region = Rect2(128, 112, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ncjr5"]
+atlas = ExtResource("1_1owj5")
+region = Rect2(128, 128, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3arrp"]
+atlas = ExtResource("1_1owj5")
+region = Rect2(128, 144, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swas5"]
+atlas = ExtResource("1_1owj5")
+region = Rect2(128, 160, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0k2u0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnghd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ncjr5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3arrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swas5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[node name="efeito_agua" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_0k2u0")
+autoplay = "default"
+frame_progress = 0.60502

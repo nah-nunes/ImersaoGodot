@@ -1,0 +1,81 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1726515947
+::res://Assets/::1726515398
+farm objects free.png::CompressedTexture2D::1302531169401253072::1667516990::1726515398::1::::<><>::
+furniture free.png::CompressedTexture2D::2323901388431089591::1663971220::1726515398::1::::<><>::
+::res://Assets/characters/::1670014834
+::res://Assets/characters/main character/::1726490464
+attack and die.png::CompressedTexture2D::2207514447373695805::1670343892::1726490464::1::::<><>::
+cat kigurumi attack and die.png::CompressedTexture2D::6842607367711089504::1670345716::1726490464::1::::<><>::
+cat kigurumi walk and idle.png::CompressedTexture2D::6052293536423209775::1670345230::1726490464::1::::<><>::
+portrait cat kigurumi.png::CompressedTexture2D::3537950623873587296::1670353356::1726490464::1::::<><>::
+portrait female.png::CompressedTexture2D::8410027190995414753::1670014166::1726490464::1::::<><>::
+portrait male.png::CompressedTexture2D::3381952853188836379::1670014158::1726490464::1::::<><>::
+portrait only cat kigurumi.png::CompressedTexture2D::4743568880960614810::1670353366::1726490464::1::::<><>::
+sword.png::CompressedTexture2D::2588039087956910698::1662890948::1726490464::1::::<><>::
+walk and idle.png::CompressedTexture2D::2291787554240729485::1670280748::1726490464::1::::<><>::
+::res://Assets/characters/main character old/::1726490464
+attack and die.png::CompressedTexture2D::34041684561173310::1662893050::1726490464::1::::<><>::
+cat kigurumi attack and die.png::CompressedTexture2D::6389599739631420894::1662892944::1726490464::1::::<><>::
+cat kigurumi walk and idle.png::CompressedTexture2D::6849101642460968041::1662892404::1726490464::1::::<><>::
+portrait cat kigurumi.png::CompressedTexture2D::2896991467826212708::1662658858::1726490464::1::::<><>::
+portrait female.png::CompressedTexture2D::3548318943640476106::1662649150::1726490464::1::::<><>::
+portrait male.png::CompressedTexture2D::3671671365647217888::1662649160::1726490464::1::::<><>::
+portrait only cat kigurumi.png::CompressedTexture2D::651449431845101840::1662658840::1726490464::1::::<><>::
+sword.png::CompressedTexture2D::7348292636132975909::1662890948::1726490464::1::::<><>::
+walk and idle.png::CompressedTexture2D::1553819808426118989::1662892324::1726490464::1::::<><>::
+::res://Assets/characters/mushrooms/::1726490464
+blue mushroom sheet.png::CompressedTexture2D::5919194732336255602::1662895314::1726490464::1::::<><>::
+brown mushroom sheet.png::CompressedTexture2D::1468888280482997819::1666290970::1726490464::1::::<><>::
+::res://Assets/items&objects/::1726490464
+autumn items.png::CompressedTexture2D::7588568292662613023::1666286838::1726490464::1::::<><>::
+furniture.png::CompressedTexture2D::6564056319823954470::1666289322::1726490464::1::::<><>::
+objects.png::CompressedTexture2D::5990861708698510637::1666290038::1726490464::1::::<><>::
+summer and spring items.png::CompressedTexture2D::6868524010983972691::1666299972::1726490464::1::::<><>::
+winter items.png::CompressedTexture2D::611684402559218392::1666288306::1726490464::1::::<><>::
+::res://Assets/tilemaps/::1726490464
+autumn tilemap.png::CompressedTexture2D::8141990549217380610::1677771300::1726490464::1::::<><>::
+bridges.png::CompressedTexture2D::2896465319724184053::1677881728::1726490464::1::::<><>::
+inside.png::CompressedTexture2D::7060699612094329940::1677170108::1726490464::1::::<><>::
+spring tilemap.png::CompressedTexture2D::4050032755988727461::1677703234::1726490464::1::::<><>::
+summer tilemap.png::CompressedTexture2D::4506431695447926300::1677766376::1726490464::1::::<><>::
+winter outside.png::CompressedTexture2D::3964713648764114736::1677764530::1726490464::1::::<><>::
+::res://Assets/tilemaps/animated tiles/::1677766008
+::res://Assets/Tiny Wonder Farm Free/::1726513098
+::res://Assets/Tiny Wonder Farm Free/characters/::1670194532
+::res://Assets/Tiny Wonder Farm Free/characters/main character/::1726514949
+portrait female.png::CompressedTexture2D::5671436582281357145::1670014166::1726514949::1::::<><>::
+portrait male.png::CompressedTexture2D::2896456286714733094::1670014158::1726514949::1::::<><>::
+walk and idle.png::CompressedTexture2D::4623128432623483808::1670019520::1726514949::1::::<><>::
+::res://Assets/Tiny Wonder Farm Free/characters/main character old/::1726514949
+portrait female.png::CompressedTexture2D::8739871916188470054::1662649150::1726514949::1::::<><>::
+portrait male.png::CompressedTexture2D::2557024213202682056::1662649160::1726514949::1::::<><>::
+walk and idle.png::CompressedTexture2D::1963964795259749714::1662892324::1726514949::1::::<><>::
+::res://Assets/Tiny Wonder Farm Free/objects&items/::1726514959
+::res://Assets/Tiny Wonder Farm Free/tilemaps/::1726514949
+farm bridges free.png::CompressedTexture2D::6728230015746813036::1677883828::1726514949::1::::<><>::
+farm inside free.png::CompressedTexture2D::573148898691184548::1677163754::1726514948::1::::<><>::
+spring farm tilemap.png::CompressedTexture2D::4306756721720389400::1677784160::1726514948::1::::<><>::
+::res://Assets/UI/::1726514948
+bars free.png::CompressedTexture2D::4407209323625534056::1668450214::1726514948::1::::<><>::
+base free.png::CompressedTexture2D::8391671893711413611::1668450496::1726514948::1::::<><>::
+buttons free.png::CompressedTexture2D::7950207993257517490::1668449860::1726514948::1::::<><>::
+gui_free.png::CompressedTexture2D::7753893116970600654::1668451046::1726514948::1::::<><>::
+icons free.png::CompressedTexture2D::1087448699159830402::1668449836::1726514948::1::::<><>::
+scrollbars free.png::CompressedTexture2D::6251319055790311835::1668450614::1726514948::1::::<><>::
+::res://Assets/vegetables/::1726515398
+Crop_Spritesheet.png::CompressedTexture2D::2586238717331679809::1536509726::1726490464::1::::<><>::
+items free.png::CompressedTexture2D::6112237078666612099::1677883998::1726515398::1::::<><>::
+plants free.png::CompressedTexture2D::7004838840952911686::1669419422::1726515398::1::::<><>::
+::res://fonts/::1726515947
+Ruluko-Regular.ttf::FontFile::1951826304154834281::1725491480::1726515973::1::::<><>::
+::res://scenes/::1726515588
+principal.tscn::PackedScene::8789202729540380055::1726515587::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn
+cenário.tscn::PackedScene::3765326133777817661::1726515588::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png<>uid://c44ft7r00w4ux::::res://Assets/items&objects/summer and spring items.png
+fazendeira.tscn::PackedScene::5105628055729491299::1726515588::0::1::::<><>::uid://7wfn2swj6u1b::::res://Assets/characters/main character/walk and idle.png<>res://scripts/fazendeira.gd
+efeito_agua.tscn::PackedScene::659877422050560127::1726510393::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png
+semente_tomate.tscn::PackedScene::3916478284204221095::1726515588::0::1::::<><>::
+tomate.tscn::PackedScene::2994332225495682816::1726515588::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png
+::res://scripts/::1726511765
+fazendeira.gd::GDScript::-1::1726510713::0::1::::<>CharacterBody2D<>::
+tomate.gd::GDScript::-1::1726511765::0::1::::<>Area2D<>::

@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://dxhs5c4vptfp4"]
+
+[ext_resource type="PackedScene" uid="uid://btv7mvhwu41qn" path="res://scenes/cenário.tscn" id="1_565rr"]
+[ext_resource type="PackedScene" uid="uid://ce0g7ibsvpmdf" path="res://scenes/fazendeira.tscn" id="2_2lh1l"]
+[ext_resource type="PackedScene" uid="uid://biwqhjx6nws53" path="res://scenes/tomate.tscn" id="3_obxgu"]
+[ext_resource type="PackedScene" uid="uid://jnwc47kiwmr4" path="res://scenes/efeito_agua.tscn" id="5_6vv7u"]
+[ext_resource type="PackedScene" uid="uid://bv2f3b4fhlmvf" path="res://scenes/semente_tomate.tscn" id="5_lsurh"]
+
+[node name="principal" type="Node2D"]
+
+[node name="Cenário_grama" parent="." instance=ExtResource("1_565rr")]
+
+[node name="Fazendeira" parent="." instance=ExtResource("2_2lh1l")]
+z_index = 1
+position = Vector2(438, 202)
+
+[node name="Camera2D" type="Camera2D" parent="Fazendeira"]
+position = Vector2(-16, 16)
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+
+[node name="tomate" parent="." instance=ExtResource("3_obxgu")]
+position = Vector2(360, 262)
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("5_6vv7u")]
+position = Vector2(205, 175)
+scale = Vector2(1, 1.29)
+
+[node name="Dados" type="CanvasLayer" parent="."]
+
+[node name="semente_tomate" parent="Dados" instance=ExtResource("5_lsurh")]
+offset_left = 122.0
+offset_top = 49.0
+offset_right = 277.0
+offset_bottom = 72.0
