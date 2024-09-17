@@ -25,11 +25,12 @@ func _process(_delta):
 
 func _on_body_entered(_body: Node2D) -> void: 
 	
-	if Dados.qtd_semente >= 1 and  plantar == true : #Input.is_action_just_pressed("space") :
+	if Dados.qtd_semente >= 1 and  plantar == true: #Input.is_action_just_pressed("space") :
 		show()
 		Dados.qtd_semente -=1
 		$AnimatedSprite2D.frame =0
 		await get_tree().create_timer(3.0).timeout
+		plantar = false
 		$AnimatedSprite2D.frame = 1
 		await get_tree().create_timer(5.0).timeout
 		$AnimatedSprite2D.frame = 2

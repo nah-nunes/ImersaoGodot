@@ -1,6 +1,4 @@
-res://scripts/fazendeira.gd
-res://scenes/tomate.tscn
-res://scripts/dados.gd
-res://scripts/tomate.gd
 res://scenes/principal.tscn
+res://scripts/tomate.gd
 res://scenes/fazendeira.tscn
+res://scenes/tomate.tscn

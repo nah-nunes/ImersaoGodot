@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726527659
+::res://::1726568551
 ::res://Assets/::1726515398
 farm objects free.png::CompressedTexture2D::1302531169401253072::1667516990::1726515398::1::::<><>::
 furniture free.png::CompressedTexture2D::2323901388431089591::1663971220::1726515398::1::::<><>::
@@ -69,13 +69,14 @@ items free.png::CompressedTexture2D::6112237078666612099::1677883998::1726515398
 plants free.png::CompressedTexture2D::7004838840952911686::1669419422::1726515398::1::::<><>::
 ::res://fonts/::1726515973
 Ruluko-Regular.ttf::FontFile::1951826304154834281::1725491480::1726515973::1::::<><>::
-::res://scenes/::1726516653
+::res://scenes/::1726530282
 cenário.tscn::PackedScene::3765326133777817661::1726516653::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png<>uid://c44ft7r00w4ux::::res://Assets/items&objects/summer and spring items.png
 efeito_agua.tscn::PackedScene::659877422050560127::1726510393::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png
-fazendeira.tscn::PackedScene::5105628055729491299::1726516653::0::1::::<><>::uid://7wfn2swj6u1b::::res://Assets/characters/main character/walk and idle.png<>res://scripts/fazendeira.gd
-principal.tscn::PackedScene::8789202729540380055::1726516652::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn
+fazendeira.tscn::PackedScene::5105628055729491299::1726530281::0::1::::<><>::uid://7wfn2swj6u1b::::res://Assets/characters/main character/walk and idle.png<>res://scripts/fazendeira.gd
+principal.tscn::PackedScene::8789202729540380055::1726530281::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn
 semente_tomate.tscn::PackedScene::3916478284204221095::1726516653::0::1::::<><>::uid://22qj865mi4dp::::res://fonts/Ruluko-Regular.ttf<>uid://dlje08ksnu65k::::res://Assets/UI/buttons free.png
-tomate.tscn::PackedScene::2994332225495682816::1726516653::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png
-::res://scripts/::1726516652
-fazendeira.gd::GDScript::-1::1726510713::0::1::::<>CharacterBody2D<>::
-tomate.gd::GDScript::-1::1726516652::0::1::::<>Area2D<>::
+tomate.tscn::PackedScene::2994332225495682816::1726530282::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png
+::res://scripts/::1726530684
+dados.gd::GDScript::-1::1726529903::0::1::::<>Node<>::
+fazendeira.gd::GDScript::-1::1726529903::0::1::::<>CharacterBody2D<>::
+tomate.gd::GDScript::-1::1726530684::0::1::::<>Area2D<>::
