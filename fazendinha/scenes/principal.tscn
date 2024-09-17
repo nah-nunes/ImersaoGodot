@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://dxhs5c4vptfp4"]
+[gd_scene load_steps=7 format=3 uid="uid://dxhs5c4vptfp4"]
 
 [ext_resource type="PackedScene" uid="uid://btv7mvhwu41qn" path="res://scenes/cenário.tscn" id="1_565rr"]
 [ext_resource type="PackedScene" uid="uid://ce0g7ibsvpmdf" path="res://scenes/fazendeira.tscn" id="2_2lh1l"]
@@ -6,13 +6,15 @@
 [ext_resource type="PackedScene" uid="uid://jnwc47kiwmr4" path="res://scenes/efeito_agua.tscn" id="5_6vv7u"]
 [ext_resource type="PackedScene" uid="uid://bv2f3b4fhlmvf" path="res://scenes/semente_tomate.tscn" id="5_lsurh"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_ao8dh"]
+
 [node name="principal" type="Node2D"]
 
 [node name="Cenário_grama" parent="." instance=ExtResource("1_565rr")]
 
 [node name="Fazendeira" parent="." instance=ExtResource("2_2lh1l")]
 z_index = 1
-position = Vector2(438, 202)
+position = Vector2(403, 211)
 
 [node name="Camera2D" type="Camera2D" parent="Fazendeira"]
 position = Vector2(-16, 16)
@@ -33,3 +35,12 @@ offset_left = 122.0
 offset_top = 49.0
 offset_right = 277.0
 offset_bottom = 72.0
+
+[node name="balde_sementes" type="Area2D" parent="."]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="balde_sementes"]
+position = Vector2(444, 203)
+shape = SubResource("CircleShape2D_ao8dh")
+
+[connection signal="body_entered" from="balde_sementes" to="Fazendeira" method="_on_balde_sementes_body_entered"]

@@ -43,3 +43,7 @@ func movimenta_personagem() -> void:
 	# Aplicar o movimento apenas uma vez
 	move_and_slide()
 
+
+
+func _on_balde_sementes_body_entered(_body) -> void:
+	Dados.qtd_semente +=1

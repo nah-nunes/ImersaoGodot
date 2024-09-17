@@ -1,7 +1,7 @@
 extends Area2D
 
+var plantar = false
 
-var semente = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,17 +13,21 @@ func _ready():
 
 	
 	
-func _process(delta):
-	$"../Dados/semente_tomate".text = "Sementes de tomate: " + str(semente)
+func _process(_delta):
+	if Input.is_action_just_pressed("space"):
+		plantar = true
+		
+		
+	$"../Dados/semente_tomate".text = "Sementes de tomate: " + str(Dados.qtd_semente)
 
 
 
 
-func _on_body_entered(body: Node2D) -> void: 
+func _on_body_entered(_body: Node2D) -> void: 
 	
-	if semente == 1:
+	if Dados.qtd_semente >= 1 and  plantar == true : #Input.is_action_just_pressed("space") :
 		show()
-		semente -=1
+		Dados.qtd_semente -=1
 		$AnimatedSprite2D.frame =0
 		await get_tree().create_timer(3.0).timeout
 		$AnimatedSprite2D.frame = 1
