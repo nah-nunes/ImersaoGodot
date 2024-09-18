@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var velocidade_fazendeira : float = 40.0
+var velocidade_fazendeira : float = 80.0
 var direcao_movimento : Vector2 = Vector2(0,0)
 
 

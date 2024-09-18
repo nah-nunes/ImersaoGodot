@@ -1,4 +1,7 @@
-res://scenes/principal.tscn
 res://scripts/tomate.gd
-res://scenes/fazendeira.tscn
 res://scenes/tomate.tscn
+res://scenes/principal.tscn
+res://scenes/fazendeira.tscn
+res://scripts/fazendeira.gd
+res://scenes/borboleta.tscn
+res://scenes/diaenoite.tscn

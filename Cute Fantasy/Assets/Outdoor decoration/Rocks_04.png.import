@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8dyk0xqfmthn"
-path="res://.godot/imported/furniture free.png-f33fbce588ec9986e31c0db30d6a922e.ctex"
+uid="uid://db7ewwkoycvtg"
+path="res://.godot/imported/Rocks_04.png-db5a6ddf62061408fc75a1ba92d08459.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/furniture free.png"
-dest_files=["res://.godot/imported/furniture free.png-f33fbce588ec9986e31c0db30d6a922e.ctex"]
+source_file="res://Assets/Outdoor decoration/Rocks_04.png"
+dest_files=["res://.godot/imported/Rocks_04.png-db5a6ddf62061408fc75a1ba92d08459.ctex"]
 
 [params]
 

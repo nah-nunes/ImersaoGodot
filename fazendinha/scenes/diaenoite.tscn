@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://gr6kr6ft473j"]
+
+[sub_resource type="Animation" id="Animation_q2n5c"]
+resource_name = "dia_e_noite"
+length = 30.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("DiaENoite/ColorRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.4, 5, 10.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0.0338533, 0.0338533, 0.0338533, 0), Color(0, 0, 0, 1), Color(0.0196078, 0.0196078, 0.0196078, 1), Color(0.0226279, 0.0226279, 0.0226279, 0.788)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_joe2v"]
+_data = {
+"dia_e_noite": SubResource("Animation_q2n5c")
+}
+
+[node name="DiaENoite" type="AnimationPlayer"]
+libraries = {
+"": SubResource("AnimationLibrary_joe2v")
+}
+autoplay = "dia_e_noite"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+self_modulate = Color(0.0227418, 0.0227418, 0.0227418, 0.78)
+offset_left = -1.0
+offset_top = -2.0
+offset_right = 1306.0
+offset_bottom = 737.0
+color = Color(0.0509804, 0.0156863, 0.0117647, 0.529412)

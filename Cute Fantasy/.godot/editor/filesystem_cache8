@@ -1,31 +1,51 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726530784
+::res://::1726616915
 icon.svg::CompressedTexture2D::5225329229076834380::1726530779::1726530784::1::::<><>::
-::res://Assets/::1726530644
+::res://Assets/::1726617491
+Bridge_All.png::CompressedTexture2D::6510614651972019469::1659902256::1726617497::1::::<><>::
+farm objects free.png::CompressedTexture2D::3911164334035424871::1667516990::1726617497::1::::<><>::
+Foam.png::CompressedTexture2D::7246544661098989674::1662490117::1726616440::1::::<><>::
+furniture free.png::CompressedTexture2D::304216984625334127::1663971220::1726616440::1::::<><>::
 ::res://Assets/Animals/::1726530644
-::res://Assets/Animals/Chicken/::1726530644
+::res://Assets/Animals/Chicken/::1726530785
 Chicken.png::CompressedTexture2D::502582553814908602::1717430530::1726530785::1::::<><>::
-::res://Assets/Animals/Cow/::1726530644
+::res://Assets/Animals/Cow/::1726530785
 Cow.png::CompressedTexture2D::2050623201982493298::1717430484::1726530785::1::::<><>::
-::res://Assets/Animals/Pig/::1726530644
+::res://Assets/Animals/Pig/::1726530784
 Pig.png::CompressedTexture2D::1467105354062208431::1717430448::1726530784::1::::<><>::
-::res://Assets/Animals/Sheep/::1726530644
+::res://Assets/Animals/Sheep/::1726530784
 Sheep.png::CompressedTexture2D::158348087906477::1717430407::1726530784::1::::<><>::
-::res://Assets/Enemies/::1726530644
+::res://Assets/Enemies/::1726530784
 Skeleton.png::CompressedTexture2D::2974819210067901043::1707719892::1726530784::1::::<><>::
 Slime.png::CompressedTexture2D::4430312107044207148::1705110010::1726530784::1::::<><>::
-::res://Assets/Outdoor decoration/::1726530644
+::res://Assets/Outdoor decoration/::1726616440
 Chest.png::CompressedTexture2D::6510742434212207951::1705124459::1726530784::1::::<><>::
+free.png::CompressedTexture2D::8489159308346584544::1637440466::1726616440::1::::<><>::
 Oak_Tree.png::CompressedTexture2D::2803219781412791146::1705118544::1726530784::1::::<><>::
 Outdoor_Decor_Free.png::CompressedTexture2D::1633501335716577312::1705795316::1726530784::1::::<><>::
-::res://Assets/Player/::1726530644
+Rocks_01.png::CompressedTexture2D::2420143215569868102::1659724150::1726616440::1::::<><>::
+Rocks_02.png::CompressedTexture2D::9060138093885796653::1659724161::1726616440::1::::<><>::
+Rocks_03.png::CompressedTexture2D::5047435525725412435::1659724172::1726616440::1::::<><>::
+Rocks_04.png::CompressedTexture2D::7295794309914240816::1659724184::1726616440::1::::<><>::
+Shadows.png::CompressedTexture2D::980864273342313119::1662484872::1726616440::1::::<><>::
+Tilemap_Elevation.png::CompressedTexture2D::2161304518720479092::1663161376::1726616440::1::::<><>::
+Tree.png::CompressedTexture2D::7681386290297419385::1659715207::1726616440::1::::<><>::
+Water.png::CompressedTexture2D::8179151128804000207::1659724634::1726616440::1::::<><>::
+::res://Assets/Player/::1726530784
 Player.png::CompressedTexture2D::2163293410416572431::1705111070::1726530784::1::::<><>::
 Player_Actions.png::CompressedTexture2D::4306118396124914702::1705795397::1726530784::1::::<><>::
-::res://Assets/Tiles/::1726530644
+::res://Assets/Tiles/::1726616440
 Cliff_Tile.png::CompressedTexture2D::7424451649551926638::1705118330::1726530784::1::::<><>::
 FarmLand_Tile.png::CompressedTexture2D::4457746433548405903::1705795453::1726530784::1::::<><>::
 Grass_Middle.png::CompressedTexture2D::7016839824094121082::1705118429::1726530784::1::::<><>::
 Path_Middle.png::CompressedTexture2D::9035707909913827954::1705118441::1726530784::1::::<><>::
 Path_Tile.png::CompressedTexture2D::8318612215291318265::1705118299::1726530784::1::::<><>::
+Tilemap_Flat.png::CompressedTexture2D::7362548887745859327::1663161352::1726616440::1::::<><>::
 Water_Middle.png::CompressedTexture2D::178924617196355474::1705118397::1726530784::1::::<><>::
 Water_Tile.png::CompressedTexture2D::6982062184433677202::1705118369::1726530784::1::::<><>::
+::res://scenes/::1726617412
+cenario.tscn::PackedScene::8505550542985378255::1726617412::0::1::::<><>::uid://dc5qds2ig5pjb::::res://Assets/Tiles/Tilemap_Flat.png<>uid://d1y713ip8iiqc::::res://Assets/Tiles/Path_Middle.png<>uid://dqrule7xr8wx2::::res://Assets/Tiles/Path_Tile.png<>uid://c6qfsq70eu4ew::::res://Assets/Tiles/Water_Tile.png<>uid://bf65vdac3iv35::::res://Assets/Outdoor decoration/Oak_Tree.png<>uid://dho6ksj0ptunh::::res://Assets/Outdoor decoration/Tree.png<>uid://b4rmox7a07tul::::res://Assets/Tiles/FarmLand_Tile.png
+main.tscn::PackedScene::8818698510774937333::1726617411::0::1::::<><>::uid://bfpj3ydq4doyg::::res://scenes/player.tscn
+player.tscn::PackedScene::2768928289319067030::1726617411::0::1::::<><>::uid://526ekeme8rwx::::res://Assets/Player/Player.png<>res://scripts/player.gd
+::res://scripts/::1726533072
+player.gd::GDScript::-1::1726533072::0::1::::<>CharacterBody2D<>::

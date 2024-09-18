@@ -1,10 +1,11 @@
+ColorRect
+AnimationPlayer
 CollisionShape2D
+AnimatedSprite2D
 Area2D
 CanvasLayer
 TileMap
 Sprite2D
 Label
-AnimatedSprite2D
-AnimationPlayer
 Camera2D
 CharacterBody2D

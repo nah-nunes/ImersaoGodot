@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726568551
-::res://Assets/::1726515398
-farm objects free.png::CompressedTexture2D::1302531169401253072::1667516990::1726515398::1::::<><>::
-furniture free.png::CompressedTexture2D::2323901388431089591::1663971220::1726515398::1::::<><>::
+::res://::1726685997
+::res://Assets/::1726686085
+Bridge_All.png::CompressedTexture2D::2739393984377766183::1659902256::1726666020::1::::<><>::
+farm objects free.png::CompressedTexture2D::1259299365325872938::1667516990::1726666020::1::::<><>::
 ::res://Assets/characters/::1670014834
 ::res://Assets/characters/main character/::1726490464
 attack and die.png::CompressedTexture2D::2207514447373695805::1670343892::1726490464::1::::<><>::
@@ -27,8 +27,9 @@ walk and idle.png::CompressedTexture2D::1553819808426118989::1662892324::1726490
 ::res://Assets/characters/mushrooms/::1726490464
 blue mushroom sheet.png::CompressedTexture2D::5919194732336255602::1662895314::1726490464::1::::<><>::
 brown mushroom sheet.png::CompressedTexture2D::1468888280482997819::1666290970::1726490464::1::::<><>::
-::res://Assets/items&objects/::1726490464
+::res://Assets/items&objects/::1726686085
 autumn items.png::CompressedTexture2D::7588568292662613023::1666286838::1726490464::1::::<><>::
+butterfly spritesheet.png::CompressedTexture2D::5961050879334224559::1726685969::1726686089::1::::<><>::
 furniture.png::CompressedTexture2D::6564056319823954470::1666289322::1726490464::1::::<><>::
 objects.png::CompressedTexture2D::5990861708698510637::1666290038::1726490464::1::::<><>::
 summer and spring items.png::CompressedTexture2D::6868524010983972691::1666299972::1726490464::1::::<><>::
@@ -69,14 +70,16 @@ items free.png::CompressedTexture2D::6112237078666612099::1677883998::1726515398
 plants free.png::CompressedTexture2D::7004838840952911686::1669419422::1726515398::1::::<><>::
 ::res://fonts/::1726515973
 Ruluko-Regular.ttf::FontFile::1951826304154834281::1725491480::1726515973::1::::<><>::
-::res://scenes/::1726530282
+::res://scenes/::1726686031
 cenário.tscn::PackedScene::3765326133777817661::1726516653::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png<>uid://c44ft7r00w4ux::::res://Assets/items&objects/summer and spring items.png
 efeito_agua.tscn::PackedScene::659877422050560127::1726510393::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png
-fazendeira.tscn::PackedScene::5105628055729491299::1726530281::0::1::::<><>::uid://7wfn2swj6u1b::::res://Assets/characters/main character/walk and idle.png<>res://scripts/fazendeira.gd
-principal.tscn::PackedScene::8789202729540380055::1726530281::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn
+fazendeira.tscn::PackedScene::5105628055729491299::1726683863::0::1::::<><>::uid://7wfn2swj6u1b::::res://Assets/characters/main character/walk and idle.png<>res://scripts/fazendeira.gd
+principal.tscn::PackedScene::8789202729540380055::1726683863::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn
+diaenoite.tscn::PackedScene::458128509401654457::1726684122::0::1::::<><>::
+borboleta.tscn::PackedScene::5862242188961041774::1726686031::0::1::::<><>::
 semente_tomate.tscn::PackedScene::3916478284204221095::1726516653::0::1::::<><>::uid://22qj865mi4dp::::res://fonts/Ruluko-Regular.ttf<>uid://dlje08ksnu65k::::res://Assets/UI/buttons free.png
-tomate.tscn::PackedScene::2994332225495682816::1726530282::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png
-::res://scripts/::1726530684
+tomate.tscn::PackedScene::2994332225495682816::1726683863::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png
+::res://scripts/::1726683863
 dados.gd::GDScript::-1::1726529903::0::1::::<>Node<>::
-fazendeira.gd::GDScript::-1::1726529903::0::1::::<>CharacterBody2D<>::
-tomate.gd::GDScript::-1::1726530684::0::1::::<>Area2D<>::
+fazendeira.gd::GDScript::-1::1726683863::0::1::::<>CharacterBody2D<>::
+tomate.gd::GDScript::-1::1726683776::0::1::::<>Area2D<>::

@@ -1,10 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxv3w8rit4s7v"]
+[gd_scene load_steps=3 format=3 uid="uid://dxv3w8rit4s7v"]
 
 [ext_resource type="PackedScene" uid="uid://bfpj3ydq4doyg" path="res://scenes/player.tscn" id="1_513gm"]
+[ext_resource type="PackedScene" uid="uid://dtgff7ba0ik2b" path="res://scenes/cenario.tscn" id="1_g0bd0"]
 
 [node name="main" type="Node2D"]
 position = Vector2(6, 3)
 scale = Vector2(3, 3)
 
+[node name="Cenario" parent="." instance=ExtResource("1_g0bd0")]
+
 [node name="Player" parent="." instance=ExtResource("1_513gm")]
-position = Vector2(207, 104)
+position = Vector2(209.333, 161)
+scale = Vector2(1.5, 1.5)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(211.333, 109.333)
