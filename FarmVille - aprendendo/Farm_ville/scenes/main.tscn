@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnk73uwtm15o6"]
+
+[ext_resource type="PackedScene" uid="uid://2jvkimjm2ml6" path="res://scenes/farmer.tscn" id="1_2jph2"]
+
+[node name="main" type="Node2D"]
+
+[node name="farmer" parent="." instance=ExtResource("1_2jph2")]
+position = Vector2(360, 197)
+scale = Vector2(2, 2)

@@ -1,0 +1,4 @@
+res://scenes/main.tscn
+res://scenes/farmer.tscn
+res://scripts/farmer.gd
+res://scenes/maps.tscn
