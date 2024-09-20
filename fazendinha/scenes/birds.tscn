@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://cwtsjl1mwabxf"]
+
+[ext_resource type="Texture2D" uid="uid://ceyvomhnp7wot" path="res://Assets/animals/birds.png" id="1_lc3u4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cd85s"]
+atlas = ExtResource("1_lc3u4")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ok047"]
+atlas = ExtResource("1_lc3u4")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7i8oe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cd85s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ok047")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_70gfo"]
+size = Vector2(18.5, 14.5)
+
+[node name="birds" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_7i8oe")
+animation = &"fly"
+autoplay = "fly"
+frame_progress = 0.636783
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, 0.25)
+shape = SubResource("RectangleShape2D_70gfo")

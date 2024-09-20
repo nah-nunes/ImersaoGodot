@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://biwqhjx6nws53"]
+[gd_scene load_steps=12 format=3 uid="uid://biwqhjx6nws53"]
 
 [ext_resource type="Script" path="res://scripts/tomate.gd" id="1_iptnl"]
 [ext_resource type="Texture2D" uid="uid://c62gw4fykpfcw" path="res://Assets/vegetables/plants free.png" id="2_ebb3y"]
+[ext_resource type="Texture2D" uid="uid://ctc2wflq62qut" path="res://Assets/vegetables/items free.png" id="3_1on57"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ba7tq"]
 atlas = ExtResource("2_ebb3y")
@@ -23,6 +24,10 @@ region = Rect2(48, 48, 16, 16)
 atlas = ExtResource("2_ebb3y")
 region = Rect2(64, 48, 16, 16)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_puyu5"]
+atlas = ExtResource("3_1on57")
+region = Rect2(48, 0, 16, 16)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_ik2at"]
 animations = [{
 "frames": [{
@@ -40,6 +45,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pucpu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_puyu5")
 }],
 "loop": false,
 "name": &"default",
@@ -55,6 +63,7 @@ monitorable = false
 script = ExtResource("1_iptnl")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = -1
 sprite_frames = SubResource("SpriteFrames_ik2at")
 frame_progress = 0.311779
 

@@ -1,6 +1,7 @@
-res://Assets/items&objects
 res://scenes
+res://Assets/animals
 res://scripts
-res://Assets/vegetables
-res://Assets/tilemaps
 res://Assets/characters/main character
+res://Assets/vegetables
+res://Assets/items&objects
+res://Assets/tilemaps

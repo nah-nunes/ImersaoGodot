@@ -1,7 +1,10 @@
-res://scripts/tomate.gd
-res://scenes/tomate.tscn
-res://scenes/principal.tscn
 res://scenes/fazendeira.tscn
-res://scripts/fazendeira.gd
+res://scenes/cenário.tscn
+res://scenes/principal.tscn
+res://scenes/tomate.tscn
 res://scenes/borboleta.tscn
-res://scenes/diaenoite.tscn
+res://scenes/birds.tscn
+res://scenes/Label.gd
+res://scripts/principal.gd
+res://scripts/fazendeira.gd
+res://scenes/house.tscn
