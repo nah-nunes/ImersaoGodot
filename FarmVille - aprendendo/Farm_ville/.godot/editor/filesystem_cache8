@@ -1,12 +1,137 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726797320
+::res://::1726841173
 icon.svg::CompressedTexture2D::5474469883603096456::1726797175::1726797184::1::::<><>::
-::res://Assets/::1726797688
-animations.png::CompressedTexture2D::8386386619129959008::1726761684::1726797746::1::::<><>::
-::res://Assets/animals/::1726797591
+::res://Assets/::1726836781
+::res://Assets/animals/::1726797746
 critters.png::CompressedTexture2D::6575174586474499729::1726761684::1726797746::1::::<><>::
+::res://Assets/animations/::1726836804
+animations.png::CompressedTexture2D::666154038931652490::1726761684::1726836804::1::::<><>::
+::res://Assets/BigCraftables/::1726836804
+Adventurer Gear.png::CompressedTexture2D::837899145195307595::1713738032::1726836803::1::::<><>::
+Amethyst Node.png::CompressedTexture2D::2112947038216504456::1713738032::1726836803::1::::<><>::
+Aquamarine Node.png::CompressedTexture2D::8897245431695448337::1713738032::1726836803::1::::<><>::
+Backpack.png::CompressedTexture2D::4017742485535060989::1713738032::1726836803::1::::<><>::
+Beautiful Flower.png::CompressedTexture2D::8334957505970350148::1713738032::1726836803::1::::<><>::
+Big Bush L.png::CompressedTexture2D::6369582959423302157::1713738032::1726836803::1::::<><>::
+Big Bush R.png::CompressedTexture2D::6794566710091378284::1713738032::1726836803::1::::<><>::
+Big Crop (stage 1).png::CompressedTexture2D::1536084810935145206::1713738032::1726836803::1::::<><>::
+Big Crop (stage 2).png::CompressedTexture2D::5731583699781508838::1713738032::1726836803::1::::<><>::
+Big Crop (stage 3).png::CompressedTexture2D::3060005583345890160::1713738032::1726836803::1::::<><>::
+Big Foliage.png::CompressedTexture2D::5164648122793576675::1713738032::1726836803::1::::<><>::
+Bone Node 1.png::CompressedTexture2D::1303897205748290776::1713738032::1726836803::1::::<><>::
+Bone Node 2.png::CompressedTexture2D::2307671966117713072::1713738032::1726836803::1::::<><>::
+Bushy Crop (stage 1).png::CompressedTexture2D::3261844228943956782::1713738032::1726836803::1::::<><>::
+Bushy Crop (stage 2).png::CompressedTexture2D::2531573926569673058::1713738032::1726836803::1::::<><>::
+Bushy Crop (stage 3).png::CompressedTexture2D::6012916094676128161::1713738032::1726836804::1::::<><>::
+Cinder Shard Node 1.png::CompressedTexture2D::4754394532114375466::1713738032::1726836804::1::::<><>::
+Cinder Shard Node 2.png::CompressedTexture2D::4706976983052552883::1713738032::1726836803::1::::<><>::
+Clay Node.png::CompressedTexture2D::2771990544335974119::1713738032::1726836803::1::::<><>::
+Coal Box.png::CompressedTexture2D::4459549974592210782::1713738032::1726836803::1::::<><>::
+Copper Node.png::CompressedTexture2D::7910792744077014838::1713738032::1726836803::1::::<><>::
+Corn Crop (stage 1).png::CompressedTexture2D::6499425009154333311::1713738032::1726836803::1::::<><>::
+Corn Crop (stage 2).png::CompressedTexture2D::3588605309041026091::1713738032::1726836803::1::::<><>::
+Corn Crop (stage 3).png::CompressedTexture2D::32109931768321372::1713738032::1726836803::1::::<><>::
+Curly Foliage.png::CompressedTexture2D::8955002123852930796::1713738032::1726836803::1::::<><>::
+Danger Sign.png::CompressedTexture2D::4447170847362471615::1713738032::1726836803::1::::<><>::
+Diamond Node.png::CompressedTexture2D::7884847705709805907::1713738032::1726836803::1::::<><>::
+Dwarf Chest.png::CompressedTexture2D::6709459501080410321::1713738032::1726836803::1::::<><>::
+Dwarf Cushion.png::CompressedTexture2D::1191770718217715366::1713738032::1726836803::1::::<><>::
+Dwarf Table.png::CompressedTexture2D::7163950752183401422::1713738032::1726836803::1::::<><>::
+Emerald Node.png::CompressedTexture2D::5596282759828737257::1713738032::1726836803::1::::<><>::
+Empty Pot.png::CompressedTexture2D::4860584086448227824::1713738032::1726836803::1::::<><>::
+Fancy Iron Lamp-post.png::CompressedTexture2D::3743834081782461855::1713738032::1726836803::1::::<><>::
+Fancy Wood Lamp-post.png::CompressedTexture2D::7093067238700715686::1713738032::1726836803::1::::<><>::
+Flower Bushel 1.png::CompressedTexture2D::6267161416234249499::1713738032::1726836803::1::::<><>::
+Flower Bushel 2.png::CompressedTexture2D::1609561672405011776::1713738032::1726836804::1::::<><>::
+Flower Bushel 3.png::CompressedTexture2D::1557437833430735860::1713738032::1726836804::1::::<><>::
+Flower Bushel 4.png::CompressedTexture2D::1097230934623056250::1713738032::1726836804::1::::<><>::
+Flower Bushel 5.png::CompressedTexture2D::2759653757139633083::1713738032::1726836804::1::::<><>::
+Flower Bushel 6.png::CompressedTexture2D::4982349017296663532::1713738032::1726836804::1::::<><>::
+Foliage.png::CompressedTexture2D::6032415063028952286::1713738032::1726836804::1::::<><>::
+Frozen Geode Node.png::CompressedTexture2D::5220549966914070754::1713738032::1726836804::1::::<><>::
+Frozen Stone 1.png::CompressedTexture2D::5034802832178182461::1713738032::1726836804::1::::<><>::
+Frozen Stone 2.png::CompressedTexture2D::7284826844474204355::1713738032::1726836804::1::::<><>::
+Frozen Stone 3.png::CompressedTexture2D::1057036677672288112::1713738032::1726836804::1::::<><>::
+Frozen Stone 4.png::CompressedTexture2D::8704939812793415436::1713738032::1726836804::1::::<><>::
+Gem Node.png::CompressedTexture2D::5512847536763017653::1713738032::1726836804::1::::<><>::
+Geode Node.png::CompressedTexture2D::7992242009646153950::1713738032::1726836804::1::::<><>::
+Gold Node.png::CompressedTexture2D::6454002619566619492::1713738032::1726836804::1::::<><>::
+Golden Piggy Bank.png::CompressedTexture2D::1762688586227606217::1713738032::1726836804::1::::<><>::
+Golden Skull Lamp-post.png::CompressedTexture2D::5308609321830811153::1713738032::1726836804::1::::<><>::
+Ice Crystal 1.png::CompressedTexture2D::6607521950205295126::1713738032::1726836804::1::::<><>::
+Ice Crystal 2.png::CompressedTexture2D::2915181087663036811::1713738032::1726836804::1::::<><>::
+Ice Crystal 3.png::CompressedTexture2D::1629453804207394393::1713738032::1726836804::1::::<><>::
+Iridium Node.png::CompressedTexture2D::5037110151265649713::1713738032::1726836804::1::::<><>::
+Iridium Skull Lamp-post.png::CompressedTexture2D::5911388263953286530::1713738032::1726836804::1::::<><>::
+Iron Node.png::CompressedTexture2D::2529930575123740666::1713738032::1726836804::1::::<><>::
+Jade Node.png::CompressedTexture2D::7667830215095891423::1713738032::1726836804::1::::<><>::
+Jagged Boulder L.png::CompressedTexture2D::5112022330970710499::1713738032::1726836804::1::::<><>::
+Jagged Boulder R.png::CompressedTexture2D::7759504814721431247::1713738032::1726836804::1::::<><>::
+Large Wooden Barrel L.png::CompressedTexture2D::2143915553870762756::1713738032::1726836804::1::::<><>::
+Large Wooden Barrel R.png::CompressedTexture2D::6164334384629303940::1713738032::1726836804::1::::<><>::
+Leafy Crop (stage 1).png::CompressedTexture2D::5082145790108099179::1713738032::1726836804::1::::<><>::
+Leafy Crop (stage 2).png::CompressedTexture2D::4015158454273780686::1713738032::1726836804::1::::<><>::
+Leafy Crop (stage 3).png::CompressedTexture2D::6888585584402614625::1713738032::1726836804::1::::<><>::
+Little Machine.png::CompressedTexture2D::8885944679486664221::1713738032::1726836804::1::::<><>::
+Little Shrub.png::CompressedTexture2D::8086892959450856607::1713738032::1726836804::1::::<><>::
+Log Pile.png::CompressedTexture2D::4210095568547002773::1713738032::1726836804::1::::<><>::
+Magma Geode Node.png::CompressedTexture2D::8024654410470600532::1713738032::1726836804::1::::<><>::
+Magma Stone 1.png::CompressedTexture2D::2507555448880209225::1713738032::1726836804::1::::<><>::
+Magma Stone 2.png::CompressedTexture2D::8870127098500775930::1713738032::1726836804::1::::<><>::
+Meteor L.png::CompressedTexture2D::3356308069879180024::1713738032::1726836802::1::::<><>::
+Meteor R.png::CompressedTexture2D::319986447793943304::1713738032::1726836802::1::::<><>::
+Moving Box.png::CompressedTexture2D::768878099045369357::1713738032::1726836802::1::::<><>::
+Mystic Node.png::CompressedTexture2D::8679328872299408663::1713738032::1726836802::1::::<><>::
+Omni Geode Node.png::CompressedTexture2D::6044031355225675677::1713738032::1726836802::1::::<><>::
+Ordinary Mushroom.png::CompressedTexture2D::2768209900535640523::1713738032::1726836802::1::::<><>::
+Potted Plant.png::CompressedTexture2D::8842280703352370831::1713738032::1726836802::1::::<><>::
+Pretty Flower.png::CompressedTexture2D::7636369436113372130::1713738032::1726836802::1::::<><>::
+Radioactive Node.png::CompressedTexture2D::2734292135337942932::1713738032::1726836802::1::::<><>::
+Ruby Node.png::CompressedTexture2D::3295710678264360910::1713738032::1726836802::1::::<><>::
+Shrub.png::CompressedTexture2D::2786394365810520352::1713738032::1726836802::1::::<><>::
+Sign of Yoba.png::CompressedTexture2D::7455850689065061084::1713738032::1726836802::1::::<><>::
+Small Barrel.png::CompressedTexture2D::823348140196719663::1713738032::1726836802::1::::<><>::
+Small Foliage.png::CompressedTexture2D::1427012922131896527::1713738032::1726836802::1::::<><>::
+Small Opened Barrel.png::CompressedTexture2D::5109553817369492320::1713738032::1726836802::1::::<><>::
+Smooth Boulder L.png::CompressedTexture2D::1337968681845082906::1713738032::1726836802::1::::<><>::
+Smooth Boulder R.png::CompressedTexture2D::1814490719959905896::1713738032::1726836802::1::::<><>::
+Special Crop (stage 1).png::CompressedTexture2D::6331949690119633518::1713738032::1726836802::1::::<><>::
+Special Crop (stage 2).png::CompressedTexture2D::1641758873916302692::1713738032::1726836802::1::::<><>::
+Special Crop (stage 3).png::CompressedTexture2D::3857890474596992161::1713738032::1726836802::1::::<><>::
+Statue Of Treasure.png::CompressedTexture2D::6576591247084283339::1713738032::1726836802::1::::<><>::
+Stone 1.png::CompressedTexture2D::3737410703809099773::1713738032::1726836802::1::::<><>::
+Stone 2.png::CompressedTexture2D::490722027822278410::1713738032::1726836802::1::::<><>::
+Stone 3.png::CompressedTexture2D::4595798910918265255::1713738032::1726836802::1::::<><>::
+Stone 4.png::CompressedTexture2D::459138232884393955::1713738032::1726836802::1::::<><>::
+Stone 5.png::CompressedTexture2D::2636118696073264789::1713738032::1726836802::1::::<><>::
+Stone 6.png::CompressedTexture2D::584131636090925267::1713738032::1726836802::1::::<><>::
+Tall Mushroom.png::CompressedTexture2D::9085212395429287517::1713738032::1726836802::1::::<><>::
+Tied Log Pile.png::CompressedTexture2D::3647423997613786232::1713738032::1726836802::1::::<><>::
+Tiny Crop (stage 1).png::CompressedTexture2D::628216924283046243::1713738032::1726836802::1::::<><>::
+Tiny Crop (stage 2).png::CompressedTexture2D::5887611728689207524::1713738032::1726836802::1::::<><>::
+Tiny Crop (stage 3).png::CompressedTexture2D::7090157150885406728::1713738032::1726836802::1::::<><>::
+Topaz Node.png::CompressedTexture2D::7513438933549269053::1713738032::1726836802::1::::<><>::
+Tree Stump.png::CompressedTexture2D::6647873731435408052::1713738032::1726836802::1::::<><>::
+Trellis Crop (stage 1).png::CompressedTexture2D::5429906485182579037::1713738032::1726836802::1::::<><>::
+Trellis Crop (stage 2).png::CompressedTexture2D::9036256496256903179::1713738032::1726836802::1::::<><>::
+Trellis Crop (stage 3).png::CompressedTexture2D::690397441503687408::1713738032::1726836803::1::::<><>::
+Trimmed Berry Bush L.png::CompressedTexture2D::4896883700797899395::1713738032::1726836803::1::::<><>::
+Trimmed Berry Bush R.png::CompressedTexture2D::6156260783196228395::1713738032::1726836803::1::::<><>::
+Trimmed Bush L.png::CompressedTexture2D::9144383556342291148::1713738032::1726836803::1::::<><>::
+Trimmed Bush R.png::CompressedTexture2D::3311151793425497109::1713738032::1726836803::1::::<><>::
+Volcanic Copper Node.png::CompressedTexture2D::6992843919052929575::1713738032::1726836803::1::::<><>::
+Volcanic Iron Node.png::CompressedTexture2D::2075039301974268010::1713738032::1726836803::1::::<><>::
+Volcanic Stone 1.png::CompressedTexture2D::1553062862063459424::1713738032::1726836803::1::::<><>::
+Volcanic Stone 2.png::CompressedTexture2D::1930402408848416763::1713738032::1726836803::1::::<><>::
+Volcanic Stone 3.png::CompressedTexture2D::6042720220452954109::1713738032::1726836803::1::::<><>::
+Wild Berry Bush L.png::CompressedTexture2D::3791817050744119158::1713738032::1726836803::1::::<><>::
+Wild Berry Bush R.png::CompressedTexture2D::4520299721585927441::1713738032::1726836803::1::::<><>::
+Wild Bush L.png::CompressedTexture2D::2713659664960956734::1713738032::1726836803::1::::<><>::
+Wild Bush R.png::CompressedTexture2D::4920275337527904961::1713738032::1726836803::1::::<><>::
+Wood Barrel.png::CompressedTexture2D::843320453469769247::1713738032::1726836803::1::::<><>::
+Wood Crate.png::CompressedTexture2D::8956573749710802530::1713738032::1726836803::1::::<><>::
 ::res://Assets/Characteres/::1726797400
-::res://Assets/Characteres/Abigail/::1726797400
+::res://Assets/Characteres/Abigail/::1726797746
 Abigail_Beach.png::CompressedTexture2D::6271078603803880706::1715237330::1726797746::1::::<><>::
 Abigail_Beach_Nose.png::CompressedTexture2D::8178378098097005349::1715237330::1726797746::1::::<><>::
 Abigail_EggF.png::CompressedTexture2D::5229490918125605799::1715237330::1726797746::1::::<><>::
@@ -23,7 +148,7 @@ Abigail_Winter_IceF.png::CompressedTexture2D::1061269327421044413::1715237330::1
 Abigail_Winter_Indoor.png::CompressedTexture2D::4693890671682625261::1715237330::1726797746::1::::<><>::
 Abigail_Winter_Outdoor.png::CompressedTexture2D::7066669635717798903::1715237330::1726797746::1::::<><>::
 Abigail_Winter_WinterStar.png::CompressedTexture2D::9193206438019698689::1715237330::1726797746::1::::<><>::
-::res://Assets/Characteres/Haley/::1726797397
+::res://Assets/Characteres/Haley/::1726797747
 Haley_Beach.png::CompressedTexture2D::469645528230655996::1715237332::1726797746::1::::<><>::
 Haley_Beach_Nose.png::CompressedTexture2D::3156657521504542606::1715237332::1726797746::1::::<><>::
 Haley_EggF.png::CompressedTexture2D::7321357313054911335::1715237465::1726797746::1::::<><>::
@@ -40,7 +165,7 @@ Haley_Winter_IceF.png::CompressedTexture2D::1442005784346220537::1715237448::172
 Haley_Winter_Indoor.png::CompressedTexture2D::3971171510668564466::1715237390::1726797746::1::::<><>::
 Haley_Winter_Outdoor.png::CompressedTexture2D::3298677183686647811::1715237332::1726797746::1::::<><>::
 Haley_Winter_WinterStar.png::CompressedTexture2D::641936235562532092::1715237433::1726797746::1::::<><>::
-::res://Assets/Characteres/Leah/::1726797399
+::res://Assets/Characteres/Leah/::1726797746
 Leah_Aerobics.png::CompressedTexture2D::1316964779472131972::1715237333::1726797746::1::::<><>::
 Leah_Beach.png::CompressedTexture2D::4853168205047566581::1715237333::1726797746::1::::<><>::
 Leah_Beach_Nose.png::CompressedTexture2D::5954205621660299502::1715237333::1726797746::1::::<><>::
@@ -58,28 +183,49 @@ Leah_Winter_IceF.png::CompressedTexture2D::6703926353037694125::1715237333::1726
 Leah_Winter_Indoor.png::CompressedTexture2D::3053567941493740852::1715237333::1726797746::1::::<><>::
 Leah_Winter_Outdoor.png::CompressedTexture2D::1445866206895308575::1715237333::1726797746::1::::<><>::
 Leah_Winter_WinterStar.png::CompressedTexture2D::3241955043697433920::1715237333::1726797746::1::::<><>::
-::res://Assets/floors/::1726797675
+::res://Assets/fences/::1726836803
+Fence1_Fall.png::CompressedTexture2D::1862704918108635912::1713738050::1726836803::1::::<><>::
+Fence1_Spring.png::CompressedTexture2D::8138554366571621420::1713738050::1726836803::1::::<><>::
+Fence1_Summer.png::CompressedTexture2D::5238390615510670927::1713738050::1726836803::1::::<><>::
+Fence1_Winter.png::CompressedTexture2D::4048572476989218509::1713738050::1726836803::1::::<><>::
+Fence5_Fall.png::CompressedTexture2D::8560087435795434990::1713738050::1726836803::1::::<><>::
+Fence5_Spring.png::CompressedTexture2D::2472582878689945118::1713738050::1726836803::1::::<><>::
+Fence5_Summer.png::CompressedTexture2D::5013752870064772819::1713738050::1726836803::1::::<><>::
+Fence5_Winter.png::CompressedTexture2D::2870135050087374294::1713738050::1726836803::1::::<><>::
+::res://Assets/floors/::1726841173
+copia.png::CompressedTexture2D::3480171555369089350::1726841129::1726841174::1::::<><>::
+Cursors.pt-BR.png::CompressedTexture2D::7668828813502603785::1726761618::1726836805::1::::<><>::
 Flooring.png::CompressedTexture2D::7511930686458859901::1726761683::1726797746::1::::<><>::
 Flooring_winter.png::CompressedTexture2D::1279811712927681765::1726761683::1726797745::1::::<><>::
 hoeDirt.png::CompressedTexture2D::4011559285800645027::1726761683::1726797745::1::::<><>::
 hoeDirtDark.png::CompressedTexture2D::5051323986566752730::1726761683::1726797745::1::::<><>::
 hoeDirtSnow.png::CompressedTexture2D::4063157791379945670::1726761683::1726797745::1::::<><>::
+Ore Area.png::CompressedTexture2D::5326482263774315402::1659517331::1726836803::1::::<><>::
+spring_z_extras.png::CompressedTexture2D::6380338503145435684::1713725282::1726836805::1::::<><>::
 summer_beach.pt-BR.png::CompressedTexture2D::668437361954084943::1726761653::1726797745::1::::<><>::
-summer_outdoorsTileSheet.pt-BR.png::CompressedTexture2D::6439672544488658408::1726761654::1726797746::1::::<><>::
+summer_outdoorsTileSheet.pt-BR.png::CompressedTexture2D::6439672544488658408::1726841122::1726841138::1::::<><>::
 walls_and_floors.png::CompressedTexture2D::596760408088212548::1726761663::1726797745::1::::<><>::
-::res://Assets/house/::1726797631
+::res://Assets/house/::1726836803
 furniture_3.png::CompressedTexture2D::4880365813233742868::1726761685::1726797745::1::::<><>::
+Leah_fall.png::CompressedTexture2D::7173003653931032827::1670769278::1726836803::1::::<><>::
+Leah_spring.png::CompressedTexture2D::7388775664821342878::1670769274::1726836803::1::::<><>::
+Leah_summer.png::CompressedTexture2D::7912201537405230492::1670769270::1726836803::1::::<><>::
+Leah_winter.png::CompressedTexture2D::6043608194555933327::1670769282::1726836803::1::::<><>::
+Mailbox.png::CompressedTexture2D::5145594344472903918::1670251420::1726836803::1::::<><>::
 StainedGlass.png::CompressedTexture2D::6297586138681020306::1670251434::1726797745::1::::<><>::
 townInterior.pt-BR.png::CompressedTexture2D::5429034235539529414::1726761662::1726797746::1::::<><>::
 wizard_furniture.png::CompressedTexture2D::7230317149145346407::1726761685::1726797745::1::::<><>::
-::res://Assets/tools/::1726797502
+::res://Assets/tools/::1726797745
 tools.png::CompressedTexture2D::3665691058063482934::1726761685::1726797745::1::::<><>::
-::res://Assets/tree/::1726797666
+::res://Assets/tree/::1726836803
 bushes.png::CompressedTexture2D::3543004436040047472::1726761684::1726797745::1::::<><>::
 fruitTrees.png::CompressedTexture2D::1783380146350492076::1726761684::1726797745::1::::<><>::
 grass.png::CompressedTexture2D::1700134391741078927::1726761683::1726797745::1::::<><>::
 mushroom_tree.png::CompressedTexture2D::79153610875640993::1726761683::1726797745::1::::<><>::
 mystic_tree.png::CompressedTexture2D::3574942287571091257::1726761683::1726797745::1::::<><>::
+SeasonalJA.png::CompressedTexture2D::7371287588941205001::1713738052::1726836803::1::::<><>::
+ShortGrass.png::CompressedTexture2D::2653093290387467078::1711120922::1726836803::1::::<><>::
+TallGrass.png::CompressedTexture2D::7189530481307710959::1711120910::1726836803::1::::<><>::
 tree1_fall.png::CompressedTexture2D::1460284435503049968::1726761683::1726797745::1::::<><>::
 tree1_greenRain.png::CompressedTexture2D::4483484809054852041::1726761683::1726797745::1::::<><>::
 tree1_greenRain_fall.png::CompressedTexture2D::1164259517119025320::1726761683::1726797745::1::::<><>::
@@ -107,7 +253,12 @@ tree8_winter.png::CompressedTexture2D::4834412180630688423::1726761683::17267977
 tree_palm2.png::CompressedTexture2D::3351628706354355992::1726761683::1726797746::1::::<><>::
 tree_palm.png::CompressedTexture2D::874846009683786805::1726761683::1726797746::1::::<><>::
 upperCavePlants.png::CompressedTexture2D::8771189445743359475::1726761683::1726797746::1::::<><>::
-::res://Assets/vegetables/::1726797463
+::res://Assets/vegetables/::1726836803
 crops.png::CompressedTexture2D::5412304061438652372::1726761684::1726797746::1::::<><>::
-::res://scenes/::1726797213
-main.tscn::PackedScene::3321513459859049955::1726797213::0::1::::<><>::
+Wood.png::CompressedTexture2D::6874574042647373044::1670251418::1726836803::1::::<><>::
+::res://scenes/::1726840709
+farmer.tscn::PackedScene::1914971531951041533::1726840707::0::1::::<><>::res://scripts/farmer.gd<>uid://usrvia3dl010::::res://Assets/Characteres/Haley/Haley_Winter_IceF.png
+main.tscn::PackedScene::3321513459859049955::1726840707::0::1::::<><>::uid://2jvkimjm2ml6::::res://scenes/farmer.tscn<>uid://71y2typb78h::::res://scenes/maps.tscn
+maps.tscn::PackedScene::67683037587868833::1726840709::0::1::::<><>::uid://cx0op3wc33ubw::::res://Assets/floors/summer_outdoorsTileSheet.pt-BR.png<>uid://dkyy2kwic0dx1::::res://Assets/house/Leah_summer.png<>uid://ch5gncxj2np0e::::res://Assets/floors/Ore Area.png<>uid://cfktgmiyav7ju::::res://Assets/house/Mailbox.png<>uid://yhs72t5wxw2j::::res://Assets/tree/grass.png
+::res://scripts/::1726799204
+farmer.gd::GDScript::-1::1726799204::0::1::::<>CharacterBody2D<>::

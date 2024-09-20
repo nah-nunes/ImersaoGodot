@@ -10,9 +10,7 @@ func _ready():
 	$AnimatedSprite2D.stop()
 	#$$SementeAnimatedSprite2D.stop()
 
-
-
-	
+			
 	
 func _process(_delta):
 	if Input.is_action_just_pressed("space"):

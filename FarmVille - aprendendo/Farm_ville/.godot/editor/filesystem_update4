@@ -1,4 +1,12 @@
+res://scenes/maps.tscn
 res://scenes/main.tscn
 res://scenes/farmer.tscn
+res://floors.tscn
+res://scenes/plantation.tscn
+res://plantation.gd
+res://scenes/sunflower_seeds.tscn
+res://scenes/sunflower_seeds.gd
+res://scenes/sunflower.tscn
+res://scripts/sunflower.gd
 res://scripts/farmer.gd
-res://scenes/maps.tscn
+res://scripts/dados.gd

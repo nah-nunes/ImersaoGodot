@@ -203,7 +203,6 @@ frame_progress = 0.775461
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 z_index = -1
 position = Vector2(-2.98023e-08, 11.25)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_heurw")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

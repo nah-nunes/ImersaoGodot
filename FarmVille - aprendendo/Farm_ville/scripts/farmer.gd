@@ -46,3 +46,9 @@ func moves_farmer() -> void:
 		
 	
  
+
+
+func _on_box_body_entered(body: Node2D) -> void:
+	print("encontrei o box")
+	
+	pass # Replace with function body.

@@ -100,7 +100,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"down_walk",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -134,7 +134,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"left_walk",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -151,7 +151,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"right_walk",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -168,28 +168,21 @@ animations = [{
 }],
 "loop": true,
 "name": &"up_walk",
-"speed": 5.0
+"speed": 8.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_58je8"]
-size = Vector2(9, 6.5)
+size = Vector2(9, 11)
 
 [node name="farmer" type="CharacterBody2D"]
-position = Vector2(547, 263)
+position = Vector2(543, 264)
 script = ExtResource("1_0ro5e")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, 1)
 sprite_frames = SubResource("SpriteFrames_88p3i")
-animation = &"idle"
-frame_progress = 0.290339
+animation = &"up_walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 11)
+position = Vector2(0, 11.5)
 shape = SubResource("RectangleShape2D_58je8")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(85, 97)
-zoom = Vector2(1.5, 1.5)
-position_smoothing_enabled = true
-position_smoothing_speed = 10.0

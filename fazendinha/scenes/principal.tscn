@@ -104,7 +104,7 @@ z_index = 1
 monitorable = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="balde_sementes"]
-position = Vector2(444, 203)
+position = Vector2(294, 136)
 shape = SubResource("CircleShape2D_ao8dh")
 
 [node name="borboleta" parent="." instance=ExtResource("6_0qevk")]

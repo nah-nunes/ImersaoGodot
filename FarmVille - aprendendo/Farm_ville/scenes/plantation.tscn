@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dd7hvplk01xua"]
+
+[ext_resource type="Script" path="res://plantation.gd" id="1_6ibam"]
+[ext_resource type="PackedScene" path="res://scenes/sunflower_seeds.tscn" id="2_6riy6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n8lpi"]
+size = Vector2(146, 104)
+
+[node name="plantation" type="Area2D"]
+script = ExtResource("1_6ibam")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(809, 482)
+shape = SubResource("RectangleShape2D_n8lpi")
+
+[node name="sunflowerSeeds" parent="." instance=ExtResource("2_6riy6")]
+position = Vector2(762, 453)

@@ -1,9 +1,32 @@
-[gd_scene load_steps=2 format=3 uid="uid://bnk73uwtm15o6"]
+[gd_scene load_steps=7 format=3 uid="uid://bnk73uwtm15o6"]
 
 [ext_resource type="PackedScene" uid="uid://2jvkimjm2ml6" path="res://scenes/farmer.tscn" id="1_2jph2"]
+[ext_resource type="PackedScene" uid="uid://qe2jsy0wouw8" path="res://floors.tscn" id="2_qwspe"]
+[ext_resource type="PackedScene" uid="uid://dd7hvplk01xua" path="res://scenes/plantation.tscn" id="3_afe6x"]
+[ext_resource type="PackedScene" uid="uid://ct8jt881nw3xe" path="res://scenes/sunflower.tscn" id="4_yh7tx"]
+[ext_resource type="PackedScene" uid="uid://bj47py2yndxau" path="res://scenes/box.tscn" id="5_3p4if"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mwt8v"]
+size = Vector2(35.5, 50)
 
 [node name="main" type="Node2D"]
 
+[node name="plantation" parent="." instance=ExtResource("3_afe6x")]
+
+[node name="floors" parent="." instance=ExtResource("2_qwspe")]
+
 [node name="farmer" parent="." instance=ExtResource("1_2jph2")]
-position = Vector2(360, 197)
+z_index = 1
+position = Vector2(620, 359)
 scale = Vector2(2, 2)
+
+[node name="Sunflower" parent="." instance=ExtResource("4_yh7tx")]
+position = Vector2(754, 451)
+
+[node name="Box" parent="." instance=ExtResource("5_3p4if")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Box"]
+position = Vector2(404.25, 325)
+shape = SubResource("RectangleShape2D_mwt8v")
+
+[connection signal="body_entered" from="Box" to="farmer" method="_on_box_body_entered"]
