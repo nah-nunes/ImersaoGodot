@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726850620
+::res://::1727202794
 ::res://Assets/::1726765278
 ::res://Assets/animals/::1726781820
 autumn items.png::CompressedTexture2D::7588568292662613023::1666286838::1726781819::1::::<><>::
@@ -73,20 +73,20 @@ items free.png::CompressedTexture2D::6112237078666612099::1677883998::1726515398
 plants free.png::CompressedTexture2D::7004838840952911686::1669419422::1726515398::1::::<><>::
 ::res://fonts/::1726515973
 Ruluko-Regular.ttf::FontFile::1951826304154834281::1725491480::1726515973::1::::<><>::
-::res://scenes/::1726794828
-birds.tscn::PackedScene::6357328701261383543::1726794390::0::1::::<><>::uid://ceyvomhnp7wot::::res://Assets/animals/birds.png
-borboleta.tscn::PackedScene::5862242188961041774::1726794390::0::1::::<><>::uid://cq6tvwpdfil7t::::res://Assets/items&objects/butterfly spritesheet.png
-cenário.tscn::PackedScene::3765326133777817661::1726794390::0::1::::<><>::uid://c0rxbwe4wllmk::::res://Assets/items&objects/furniture.png<>uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png<>uid://c44ft7r00w4ux::::res://Assets/items&objects/summer and spring items.png<>uid://dgd7u1n0pu4b0::::res://Assets/animals/autumn items.png
+::res://scenes/::1726851693
+birds.tscn::PackedScene::6357328701261383543::1726851693::0::1::::<><>::uid://ceyvomhnp7wot::::res://Assets/animals/birds.png
+borboleta.tscn::PackedScene::5862242188961041774::1726851692::0::1::::<><>::uid://cq6tvwpdfil7t::::res://Assets/items&objects/butterfly spritesheet.png
+cenário.tscn::PackedScene::3765326133777817661::1726851692::0::1::::<><>::uid://c0rxbwe4wllmk::::res://Assets/items&objects/furniture.png<>uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png<>uid://c44ft7r00w4ux::::res://Assets/items&objects/summer and spring items.png<>uid://dgd7u1n0pu4b0::::res://Assets/animals/autumn items.png
 diaenoite.tscn::PackedScene::458128509401654457::1726702146::0::1::::<><>::
 efeito_agua.tscn::PackedScene::659877422050560127::1726510393::0::1::::<><>::uid://b5g7jh8801ylg::::res://Assets/tilemaps/summer tilemap.png
-fazendeira.tscn::PackedScene::5105628055729491299::1726794389::0::1::::<><>::res://scripts/fazendeira.gd<>uid://cqyso08uuxyku::::res://Assets/characters/main character/Haley_Fall.png
-house.tscn::PackedScene::6649234120403223631::1726794828::0::1::::<><>::uid://c7uixq3imh18s::::res://Assets/tilemaps/inside.png<>uid://c0rxbwe4wllmk::::res://Assets/items&objects/furniture.png<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn
+fazendeira.tscn::PackedScene::5105628055729491299::1726851692::0::1::::<><>::res://scripts/fazendeira.gd<>uid://cqyso08uuxyku::::res://Assets/characters/main character/Haley_Fall.png
+house.tscn::PackedScene::6649234120403223631::1726851693::0::1::::<><>::uid://c7uixq3imh18s::::res://Assets/tilemaps/inside.png<>uid://c0rxbwe4wllmk::::res://Assets/items&objects/furniture.png<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn
 Label.gd::GDScript::-1::1726776273::0::1::::<>Label<>::
-principal.tscn::PackedScene::8789202729540380055::1726794389::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>res://scripts/principal.gd<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn<>uid://cpryji4famr0y::::res://scenes/borboleta.tscn<>uid://gr6kr6ft473j::::res://scenes/diaenoite.tscn<>res://scenes/Label.gd<>uid://cwtsjl1mwabxf::::res://scenes/birds.tscn
+principal.tscn::PackedScene::8789202729540380055::1726851692::0::1::::<><>::uid://btv7mvhwu41qn::::res://scenes/cenário.tscn<>res://scripts/principal.gd<>uid://ce0g7ibsvpmdf::::res://scenes/fazendeira.tscn<>uid://biwqhjx6nws53::::res://scenes/tomate.tscn<>uid://jnwc47kiwmr4::::res://scenes/efeito_agua.tscn<>uid://bv2f3b4fhlmvf::::res://scenes/semente_tomate.tscn<>uid://cpryji4famr0y::::res://scenes/borboleta.tscn<>uid://gr6kr6ft473j::::res://scenes/diaenoite.tscn<>res://scenes/Label.gd<>uid://cwtsjl1mwabxf::::res://scenes/birds.tscn
 semente_tomate.tscn::PackedScene::3916478284204221095::1726516653::0::1::::<><>::uid://22qj865mi4dp::::res://fonts/Ruluko-Regular.ttf<>uid://dlje08ksnu65k::::res://Assets/UI/buttons free.png
-tomate.tscn::PackedScene::2994332225495682816::1726794389::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png<>uid://ctc2wflq62qut::::res://Assets/vegetables/items free.png
-::res://scripts/::1726785016
+tomate.tscn::PackedScene::2994332225495682816::1726851692::0::1::::<><>::res://scripts/tomate.gd<>uid://c62gw4fykpfcw::::res://Assets/vegetables/plants free.png<>uid://ctc2wflq62qut::::res://Assets/vegetables/items free.png
+::res://scripts/::1726863172
 dados.gd::GDScript::-1::1726529903::0::1::::<>Node<>::
 fazendeira.gd::GDScript::-1::1726785016::0::1::::<>CharacterBody2D<>::
 principal.gd::GDScript::-1::1726776273::0::1::::<>Node2D<>::
-tomate.gd::GDScript::-1::1726763514::0::1::::<>Area2D<>::
+tomate.gd::GDScript::-1::1726863172::0::1::::<>Area2D<>::
