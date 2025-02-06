@@ -12,13 +12,13 @@ extends Area2D
 
 
 
-var velocidade_da_bola: float = 400.0
-var posicao_inicial : Vector2 =Vector2(400, 500)
-var direcao_inicial : Vector2 = Vector2(0,0)
-var nova_direcao : Vector2 = Vector2(0,0)
+var velocidade_da_bola: float = 400.0 # speed
+var posicao_inicial : Vector2 =Vector2(400, 500) # position inicial
+var direcao_inicial : Vector2 = Vector2(0,0) #initial direction
+var nova_direcao : Vector2 = Vector2(0,0) #new direction
 
-var primeiro_lancamento : bool = true
-var caiu_da_tela : bool = false
+var primeiro_lancamento : bool = true #first release
+var caiu_da_tela : bool = false # off screen
 
 
 
@@ -31,26 +31,21 @@ var y_maximo: float = 600
 
 func _ready():
 	timer_da_bola.one_shot = true
-	resetar_bola()
+	resetar_bola() # reset ball
 
 	
-
-
 
 func _process(delta):
 	if primeiro_lancamento == true:
 		if Input.is_action_just_pressed("lancar-bola"):
-			escolher_posicao_inicial()
+			escolher_posicao_inicial() # choose starting position
 			primeiro_lancamento = false	
 			
 	movimentar_bola(delta)
 	verificar_posicao_da_bola()
 
-
-
 func resetar_bola() -> void:
 	position = posicao_inicial
-	
 
 func escolher_posicao_inicial() -> void:
 	#escolhe uma nova direção horizontal
@@ -58,13 +53,10 @@ func escolher_posicao_inicial() -> void:
 	#aplica a nova direção
 	direcao_inicial = Vector2(x_aleatorio, -1)
 	nova_direcao = direcao_inicial
-	
-
 
 func movimentar_bola(delta : float) -> void:
 	# movimenta a bola com base em sua nova direção
 	position += nova_direcao * velocidade_da_bola * delta
-	
 # 	
 func verificar_posicao_da_bola() -> void:
 	# se a bola estiver dentro da tela
@@ -83,8 +75,6 @@ func verificar_posicao_da_bola() -> void:
 	if position.y > y_maximo and not caiu_da_tela:
 		timer_da_bola.start()
 		caiu_da_tela = true
-	
-	
 		
 func sair_da_tela() -> void:
 
@@ -95,7 +85,6 @@ func sair_da_tela() -> void:
 	
 	# trazer de volta pra tela
 	resetar_bola()
-		
 	
 # função que verifica 
 func _on_body_entered(body):
@@ -110,10 +99,7 @@ func _on_body_entered(body):
 		som_impacto_bola.play()
 		body.receber_dano()
 		nova_direcao.y *= -1
-		
 	
-
-
 
 func _on_timer_timeout():
 	sair_da_tela()
